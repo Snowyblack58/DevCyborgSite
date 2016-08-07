@@ -52,11 +52,17 @@
 						</td>
 						<td class="feature">
 								<div class="feature-content">
-									<div class="feature-title"><p>!hello</p></div>
-									<div class="feature-description"><p>Bot says hi back</p></div>
+									<div class="feature-title"><p>!help</p></div>
+									<div class="feature-description"><p>Bot tells you all its commands</p></div>
 									<div class="messenger">
-										<div class="message-me last-msg-from-user"><div>!hello</div></div>
-										<div class="message-you"><div class="message-user">Bot</div><div>hi</div></div>
+										<div class="message-me last-msg-from-user"><div>!help</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>Hal the Dev Cyborg Help:<br>
+	!help<br>
+	!task add &lt;task&gt;<br>
+        !task edit &lt;index&gt; &lt;new&gt;<br>
+        !task del &lt;index&gt;<br>
+        !task list<br>
+	!news &lt;amount (min 5, max 30)&gt;</div></div>
 									</div>
 								</div>
 						</td>
@@ -77,18 +83,19 @@
 									<div class="feature-title"><p>!task list</p></div>
 									<div class="feature-description"><p>Bot prints all your tasks</p></div>
 									<div class="messenger">
-										<div class="message-me last-msg-from-user"><div>!ping John</div></div>
-										<div class="message-you"><div class="message-user">Bot</div><div>hey</div></div>
+										<div class="message-me last-msg-from-user"><div>!task list</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>0 : github integration<br>
+1 : syntax highlighting</div></div>
 									</div>
 							</div>
 						</td>
 						<td class="feature">
 								<div class="feature-content">
-									<div class="feature-title"><p>!hello</p></div>
-									<div class="feature-description"><p>Bot says hi back</p></div>
+									<div class="feature-title"><p>!task edit &lt;index&gt; &lt;new&gt;</p></div>
+									<div class="feature-description"><p>Bot updates a task at the index</p></div>
 									<div class="messenger">
-										<div class="message-me last-msg-from-user"><div>!hello</div></div>
-										<div class="message-you"><div class="message-user">Bot</div><div>hi</div></div>
+										<div class="message-me last-msg-from-user"><div>!task edit 1 "New task"</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>Task 1 is now New Task</div></div>
 									</div>
 								</div>
 						</td>
@@ -96,14 +103,15 @@
 					<tr>
 						<td class="feature">
 								<div class="feature-content">
-									<div class="feature-title"><p>!hello</p></div>
-									<div class="feature-description"><p>Bot says hi back</p></div>
+									<div class="feature-title"><p>!task del &lt;index&gt;</p></div>
+									<div class="feature-description"><p>Bot deletes the task at that index</p></div>
 									<div class="messenger">
-										<div class="message-me last-msg-from-user"><div>!hello</div></div>
-										<div class="message-you"><div class="message-user">Bot</div><div>hi</div></div>
+										<div class="message-me last-msg-from-user"><div>!task del 1</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>Task 1 has been deleted</div></div>
 									</div>
 								</div>
 						</td>
+<!--
 						<td class="feature">
 								<div class="feature-content">
 									<div class="feature-title"><p>!ping &lt;user&gt;</p></div>
@@ -124,6 +132,54 @@
 									</div>
 								</div>
 						</td>
+-->
+					</tr>
+					<tr>
+						<td class="feature">
+								<div class="feature-content">
+									<div class="feature-title"><p>!news &lt;num&gt;</p></div>
+									<div class="feature-description"><p>Bot gets that number of articles from hacker news</p></div>
+									<div class="messenger">
+										<div class="message-me last-msg-from-user"><div>!news 6</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>Software Library: Amiga
+	https://archive.org/details/softwarelibrary_amiga&tab=collection
+Another Metroid 2 Remake v1.0
+	http://metroid2remake.blogspot.com/
+Google Outpaces Facebook on Getting India Connected to Internet
+	http://www.bloomberg.com/news/articles/2016-08-05/google-outpaces-facebook-on-getting-india-connected-to-internet
+How to become a data scientist
+	https://www.experfy.com/blog/how-to-become-a-data-scientist-part-1-3
+Steam in Docker
+	https://hub.docker.com/r/andrey01/steam
+Apple should stop selling four-year-old computers
+	http://www.theverge.com/2016/8/4/12373776/2012-macbook-pro-still-alive-not-dead-why</div></div>
+									</div>
+								</div>
+						</td>
+<!--
+						<td class="feature">
+								<div class="feature-content">
+									<div class="feature-title"><p>!ping &lt;user&gt;</p></div>
+									<div class="feature-description"><p>Bot returns a user object</p></div>
+									<div class="messenger">
+										<div class="message-me last-msg-from-user"><div>!ping John</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>hey</div></div>
+									</div>
+							</div>
+						</td>
+-->
+<!--
+						<td class="feature">
+								<div class="feature-content">
+									<div class="feature-title"><p>!hello</p></div>
+									<div class="feature-description"><p>Bot says hi back</p></div>
+									<div class="messenger">
+										<div class="message-me last-msg-from-user"><div>!hello</div></div>
+										<div class="message-you"><div class="message-user">Bot</div><div>hi</div></div>
+									</div>
+								</div>
+						</td>
+-->
 					</tr>
 				</table>
 				
