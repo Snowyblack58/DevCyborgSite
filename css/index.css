@@ -147,6 +147,7 @@ section {
 *************************************************/
 #technologies-page {
 	background: #E5E5E5;
+	height: auto;
 }
 #technologies-title {
 	display: block;
@@ -189,7 +190,31 @@ section {
 *************************************************/
 #about-page {
 	background: #FFF;
+	min-height: 0;
+	height: auto;
 }
+#about-title {
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+#about-title p {
+	display: inline-block;
+	font-size: 32px;
+}
+#about {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+}
+#about-page ul {
+	text-align: center;
+	list-style: none;
+	width: 35%;
+	display: inline-block;
+}
+
 /*************************************************
 * Contact
 *************************************************/
