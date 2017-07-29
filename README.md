@@ -1,6 +1,6 @@
 # Hal the Dev Cyborg Site
 
-Visit the site at [https://snowyblack58.github.io/DevCyborgSite](https://snowyblack58.github.io/DevCyborgSite) 
+Visit the site at [https://davdzhao.me/DevCyborgSite](https://davidzhao.me/DevCyborgSite) 
 
 Built for the introduction to Hal the Dev Cyborg -- a Facebook messenger bot with developers tools.
 
